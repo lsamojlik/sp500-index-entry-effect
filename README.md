@@ -20,13 +20,23 @@ Co więcej, spółki trafiające do indeksu znajdują się zazwyczaj w silnym mo
 
 Wykorzystując dane dotyczące zmian w składzie S&P 500 z lat 1996–2025, sprawdziłem, jak zachowywały się ceny akcji podmiotów, które trafiły do indeksu. Analiza dotyczyła zarówno okresu przed dołączeniem do indeksu, jak i po jego wejściu w życie (effective date).
 
+**Założenia**:
+
+- w dniu wejścia spółki do indeksu wykorzystano cenę Adjusted OPEN - Adjusted Price uwzględnia wszystkie zjawiska mogące zniekształcać dane jak np. split akcji, dywidendy. Unikamy dzięki temu sztucznych ruchów cen
+
+- wszystkie pozostałe ceny akcji to ceny Adjusted CLOSE z 5 sesji wstecz, 20 sesji wstecz (jako miesiąc wstecz), 60 sesji wstecz (jako 3M wstecz), 20 sesji do przodu (jako miesiąc do przodu) oraz 60 sesji do przodu (jako 3M do przodu)
+
+- w badaniu nie uwzględniono spółek, które zostały zdjęte z giełdy – wynika to z ograniczeń darmowej wersji yahoo finance
+
+- pobrane dane S&P 500 z wykorzystaniem tickera ^GSPC obejmują analogiczne przesunięcia w czasie jakie przedstawiono wyżej dla spółek dołączających do indeksu
+
 
 
 **Źródła danych**:
 
-• biblioteka yfinance (yahoo finance)
+- biblioteka yfinance (yahoo finance)
 
-• kaggle – skład indeksu S&P 500 (z uwzględnieniem zmian)
+- kaggle – skład indeksu S&P 500 (z uwzględnieniem zmian)
 
 ________________________________________
 

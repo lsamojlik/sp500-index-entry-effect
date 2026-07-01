@@ -7,6 +7,8 @@ Wejście spółki do renomowanego indeksu – przepis na „łatwy” zysk czy �
 </div>
 
 ________________________________________
+Materiał na youtube: https://www.youtube.com/watch?v=waVLqRRszhY
+
 
 **Opis problemu**:
 

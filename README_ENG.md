@@ -7,6 +7,8 @@ A Company's Inclusion in a Prestigious Index - a receipe for "Easy" Profit or a 
 </div>
 
 ________________________________________
+youtube video: https://www.youtube.com/watch?v=waVLqRRszhY
+
 
 **Problem Description**:
 
